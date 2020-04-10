@@ -1,0 +1,14 @@
+htmlcreator.1.gz => The man page for the htmlcreator
+
+htmlcreator.sh => The bash script file
+
+install.sh => The installation file used for the makeself script
+
+myhtmlcreator.run => The self installation file created using makeself
+
+command used with makeself
+=========================
+./makeself-2.4.0/makeself.sh --current ./htmlcreator myhtmlcreator.run "My htmlcreator script installer" ./install.sh
+
+During executing the above command, MAKE SURE ONLY THE FIRST 3 FILES FROM ABOVE MENTIONED are inside the htmlcreator folder
+
